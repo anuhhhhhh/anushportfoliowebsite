@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Anush Harish Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/5595e98e68.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <!-- <img src="pf images/Logo.png" class="logo"> -->
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Software Engineer</p>
+                    <h1>Hi, I'm <span>Anush</span><br> Data Science major at UCSB</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="pf images/background.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>As a dedicated Research Intern at Think Neuro, Inc., I delved into the complexities of Machine Learning, honing my programming skills and applying my problem-solving abilities to advance research initiatives. My work at Think Neuro, Inc. complemented my academic pursuit in Data Science at UC Santa Barbara, where I am cultivating a robust foundation in data analysis and algorithm development.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>SWE</span><br>Java/C/Python programming</li>
+                                <li><span>UI/UX</span><br>Designing Android/iOS apps</li>
+                                <li><span>Web App Development</span><br>Designing Web/App Interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>May 2024 - August 2024</span><br>ThinkNeuro Research Intern</li>
+                                <li><span>October 2023 - May 2024</span><br>Secretary of Computer Graphics at SJSU ACM SIGGRAPH</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022 - Present</span><br>Data Science B.S. at UCSB</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>Software Engineering</h2>
+                        <p>Coding Experience in Java, C, Python</p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Experience in UI/UX design for apps using Swift</p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Experience in web design using HTML/CSS</p>
+                        <!-- <a href="#header">Learn more</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Portfolio</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="pf images/ThinkNeuroCertification.png">
+                        <div class="layer">
+                            <h3>Research Internship Co-Lead</h3>
+                            <p>Led a Neurotechnology research team with a focus on Deep-Brain Stimulation.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="pf images/ExpenseTrackerApp.png">
+                        <div class="layer">
+                            <h3>Expense Tracker App</h3>
+                            <p>An Expense Tracker UI offers a solution to monitor, analyze, and optimize financial habits.</p>
+                            <a href="https://www.linkedin.com/in/anushharish325/overlay/1713301959212/single-media-viewer/?profileId=ACoAADR_daUBAFCTxm-z6wNBdhGk9qZUEZuLRLw"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <!-- <div class="work">
+                        <img src="pf images/ThinkNeuroCertification.png">
+                        <div class="layer">
+                            <h3>Expense Tracker App</h3>
+                            <p>An Expense Tracker UI offers a solution to monitor, analyze, and optimize financial habits.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div> -->
+                </div>
+                <!-- <a href="#" class="btn">See more</a> -->
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-regular fa-paper-plane"></i> a.anushharish.h@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> 6504553452</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/a.anush.h/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/anushharish325/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="pf images/Anush's Resume 2024.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Anush. Made by Anush</p>
+            </div>
+        </div>
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closemenu(){
+                sidemeu.style.right = "-200px";
+            }
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwrETuqhOQgfQbZFjljKz8okD9ipuZIjthQbxhirb1Bfv9lvfPUjbUgUJCWgI7uhHsl/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Success!"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+
+
+    </body>
+</html>
